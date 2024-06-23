@@ -26,4 +26,3 @@ EXPOSE $PORT
 # Run the application
 CMD ["sh", "-c", "fastapi run app/main.py --port $PORT"]
 #CMD ["fastapi", "run", "app/main.py", "--port", "8000"]
-#CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port $PORT"]
